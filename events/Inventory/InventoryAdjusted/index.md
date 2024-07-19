@@ -3,7 +3,7 @@ id: InventoryAdjusted
 name: Inventory adjusted
 version: 0.0.4
 summary: |
-  Indicates a change in inventory level
+  This description is a bit too long thats why the discover page has scroll bars. It shouldn't be like this or what do you think?
 owners:
   - dboyne
   - msmith
