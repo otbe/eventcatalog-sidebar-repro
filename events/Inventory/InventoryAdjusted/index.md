@@ -5,22 +5,26 @@ version: 0.0.4
 summary: |
   Indicates a change in inventory level
 owners:
-    - dboyne
-    - msmith
-    - asmith
-    - full-stack
-    - mobile-devs
+  - dboyne
+  - msmith
+  - asmith
+  - full-stack
+  - mobile-devs
 badges:
-    - content: Recently updated!
-      backgroundColor: green
-      textColor: green
-    - content: Channel:Apache Kafka
-      backgroundColor: yellow
-      textColor: yellow
-schemaPath: 'schema.avro'
+  - content: Recently updated!
+    backgroundColor: green
+    textColor: green
+  - content: Channel:Apache Kafka
+    backgroundColor: yellow
+    textColor: yellow
+schemaPath: "schema.avro"
 ---
 
 ## Overview
+
+```
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+```
 
 The `Inventory Adjusted` event is triggered whenever there is a change in the inventory levels of a product. This could occur due to various reasons such as receiving new stock, sales, returns, or manual adjustments by the inventory management team. The event ensures that all parts of the system that rely on inventory data are kept up-to-date with the latest inventory levels.
 
@@ -40,7 +44,7 @@ Event example you my see being published.
   "Age": 30,
   "Department": "Engineering",
   "Position": "Software Engineer",
-  "Salary": 85000.50,
+  "Salary": 85000.5,
   "JoinDate": "2024-01-15"
 }
 ```
